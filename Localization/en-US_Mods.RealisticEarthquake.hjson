@@ -1,0 +1,81 @@
+Configs: {
+	EarthquakeConfig: {
+		ImmersiveAudioDucking: {
+			Tooltip: Бонус: во время землетрясения приглушать фоновую музыку и делать акцент на гуле/грохоте.
+			Label: Immersive Audio Ducking
+		}
+
+		DebrisDamageMultiplier: {
+			Tooltip: Общий множитель урона от падающих обломков. 1.0 - стандартный урон.
+			Label: Debris Damage Multiplier
+		}
+
+		Headers: {
+			УронИРазрушения: УронИРазрушения Header
+			ИнтерфейсИОповещения: ИнтерфейсИОповещения Header
+			Афтершоки: Афтершоки Header
+			Магнитуда: Магнитуда Header
+			ЧастотаЗемлетрясений: ЧастотаЗемлетрясений Header
+		}
+
+		ShowDebugButton: {
+			Tooltip:
+				'''
+				Показывать на экране кнопку ручного вызова землетрясения (удобно для тестирования).
+				Видна только вам, на геймплей других игроков не влияет.
+				'''
+			Label: Show Debug Button
+		}
+
+		ShowChatMessages: {
+			Tooltip: Показывать сообщения в чат о начале и конце землетрясения.
+			Label: Show Chat Messages
+		}
+
+		AftershockPeriodSeconds: {
+			Tooltip: Примерная продолжительность периода афтершоков после основного землетрясения, в секундах.
+			Label: Aftershock Period Seconds
+		}
+
+		EnableAftershocks: {
+			Tooltip: Включить слабые повторные толчки (афтершоки) после основного землетрясения.
+			Label: Enable Aftershocks
+		}
+
+		MaxMagnitude: {
+			Tooltip:
+				'''
+				Максимальная случайная магнитуда, которая может выпасть (по 10-балльной шкале).
+				Минимальная магнитуда всегда 3.
+				'''
+			Label: Max Magnitude
+		}
+
+		AverageIntervalMinutes: {
+			Tooltip:
+				'''
+				Среднее время между землетрясениями, в минутах.
+				Реальный интервал будет случайно колебаться на ±30% от этого значения, чтобы землетрясения не были предсказуемыми по таймеру.
+				'''
+			Label: Average Interval Minutes
+		}
+
+		DisplayName: Earthquake Config
+	}
+}
+
+Buffs: {
+	DustyHazeDebuff: {
+		DisplayName: Dusty Haze Debuff
+		Description: Mods.RealisticEarthquake.Buffs.DustyHazeDebuff.Description
+	}
+}
+
+Items: {
+	Seismograph: {
+		DisplayName: Seismograph
+		Tooltip: ""
+	}
+}
+
+Projectiles.FallingDebris.DisplayName: Falling Debris
