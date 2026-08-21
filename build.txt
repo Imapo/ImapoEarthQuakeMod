@@ -1,0 +1,9 @@
+displayName = Imapo's Realistic Earthquake
+author = Imapo
+version = 1.0
+homepage =
+description = Реалистичные землетрясения: гул перед началом, падающие обломки потолка, облака пыли со снижением видимости, афтершоки, случайная магнитуда и ручной вызов для тестов.
+modReferences =
+sortAfter =
+sortBefore =
+side = Both
